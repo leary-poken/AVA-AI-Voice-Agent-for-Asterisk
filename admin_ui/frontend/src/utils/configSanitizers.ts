@@ -19,4 +19,3 @@ export function sanitizeConfigForSave(config: any): any {
 
   return out;
 }
-
