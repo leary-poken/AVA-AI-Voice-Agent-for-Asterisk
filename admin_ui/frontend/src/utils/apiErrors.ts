@@ -67,4 +67,3 @@ export const buildDockerAccessHints = (info: ApiErrorInfo): string[] => {
     hints.push('If you ran preflight or changed .env, recreate the container: docker compose -p asterisk-ai-voice-agent up -d --force-recreate admin_ui');
     return hints;
 };
-
